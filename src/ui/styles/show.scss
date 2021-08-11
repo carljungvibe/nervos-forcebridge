@@ -1,0 +1,9 @@
+.show-images {
+    margin-bottom: 1rem;
+    border: 2px solid gray;
+    img {
+        width: 40vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+}

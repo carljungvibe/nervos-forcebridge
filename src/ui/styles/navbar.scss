@@ -1,0 +1,23 @@
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+
+    .nav-header {
+    }
+    .nav-balance {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-accounts {
+        h4 {
+            margin: 0;
+        }
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+}

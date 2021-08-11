@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.rotating-icon {
+    display: inline-block;
+    animation: spin 1s infinite linear;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fb-modal {
+    button {
+        background-color: rgb(121, 4, 4);
+        color: white;
+    }
+}
+
+.react-responsive-modal-modal {
+    small {
+        width: 100%;
+        color: black;
+        background-color: rgb(240, 240, 142) !important;
+    }
+
+    .l2-address {
+        width: 30vw;
+        padding: 1rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        background-color: rgb(201, 201, 201) !important;
+        color: black;
+        border-radius: 10px;
+    }
+
+    .btn-fb {
+        background-color: green;
+        color: white;
+    }
+}
+
+.app {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .btn-upload {
+        background-color: green;
+        color: white;
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes twist-up {
+    to {
+        transform: rotateX(360deg);
+    }
+}
